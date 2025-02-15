@@ -8,22 +8,22 @@ menuIcon.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// Dark Mode Toggle
-const darkModeToggle = document.getElementById("dark-mode-toggle");
-const body = document.body;
+  // Dark Mode Toggle
+  const darkModeToggle = document.getElementById("dark-mode-toggle");
+  const body = document.body;
 
-darkModeToggle.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
-  const isDarkMode = body.classList.contains("dark-mode");
-  localStorage.setItem("dark-mode", isDarkMode);
-  darkModeToggle.innerHTML = isDarkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
-});
+  darkModeToggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+    const isDarkMode = body.classList.contains("dark-mode");
+    localStorage.setItem("dark-mode", isDarkMode);
+    darkModeToggle.innerHTML = isDarkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+  });
 
-// Check Local Storage for Dark Mode Preference
-if (localStorage.getItem("dark-mode") === "true") {
-  body.classList.add("dark-mode");
-  darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-}
+  // Check Local Storage for Dark Mode Preference
+  if (localStorage.getItem("dark-mode") === "true") {
+    body.classList.add("dark-mode");
+    darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+  }
 
 // Contact Form Validation
 const contactForm = document.getElementById("contact-form");

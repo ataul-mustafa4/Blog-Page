@@ -420,3 +420,89 @@ body {
     background: #0056b3;
     transform: translateY(-2px);
   }
+
+  /* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-content {
+    background-color: #1f1f1f; /* Slightly lighter dark background for content */
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-text {
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-text h1,
+  .dark-mode .blog-text h2,
+  .dark-mode .blog-text h3 {
+    color: #ffffff; /* White text for headings */
+  }
+  
+  .dark-mode .blog-text p {
+    color: #cccccc; /* Light gray text for paragraphs */
+  }
+  
+  .dark-mode .blog-text ul li {
+    color: #cccccc; /* Light gray text for list items */
+  }
+  
+  .dark-mode .btn {
+    background-color: #007BFF; /* Blue button background */
+    color: #ffffff; /* White button text */
+  }
+  
+  .dark-mode .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+
+/* 15/02/2025 */
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-content,
+  .dark-mode .eligible-institutes-content {
+    background-color: #1f1f1f; /* Slightly lighter dark background for content */
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-text,
+  .dark-mode .eligible-institutes-text {
+    color: #ffffff; /* White text */
+  }
+  
+  .dark-mode .blog-text h1,
+  .dark-mode .blog-text h2,
+  .dark-mode .blog-text h3,
+  .dark-mode .eligible-institutes-text h1,
+  .dark-mode .eligible-institutes-text h2,
+  .dark-mode .eligible-institutes-text h3 {
+    color: #ffffff; /* White text for headings */
+  }
+  
+  .dark-mode .blog-text p,
+  .dark-mode .eligible-institutes-text p {
+    color: #cccccc; /* Light gray text for paragraphs */
+  }
+  
+  .dark-mode .blog-text ul li,
+  .dark-mode .eligible-institutes-text ul li {
+    color: #cccccc; /* Light gray text for list items */
+  }
+  
+  .dark-mode .btn {
+    background-color: #007BFF; /* Blue button background */
+    color: #ffffff; /* White button text */
+  }
+  
+  .dark-mode .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
